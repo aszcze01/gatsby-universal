@@ -6,7 +6,7 @@ import Header from 'components/header';
 import GlobalStyle from 'global.css.js';
 
 const Layout = ({ data, children }) => (
-  <div>
+  <div className="layout">
     <GlobalStyle />
     <Head />
     <Header title={data.site.siteMetadata.siteTitle} />

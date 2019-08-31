@@ -150,6 +150,8 @@ const Head = ({
       type="image/png"
     />
 
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     <script type="application/ld+json">
       {JSON.stringify(
         schemaGenerator({
